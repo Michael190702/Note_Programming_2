@@ -105,7 +105,7 @@ long calculateSumRecursive(int n){
     return n + calculateSumRecursive(n - 1);
 } // tanpa pake loop
 
-void ulang_detect_angka(char a[]){
+void ulang_detect_angka(int a[]){
 	// char a[] = "aaabbbcc";
 	 char b[10]; // berapa banyak didalam Array
 	
